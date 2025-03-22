@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime, timedelta
 
 # Configure OpenAI API key
-openai.api_key = st.secrets["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"]
+openai.api_key = st.secrets.openai_api_key ["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"]
 
 # Configure the page
 st.set_page_config(
